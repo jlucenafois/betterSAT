@@ -1,1 +1,10 @@
-/student_files
+# Ignore everything inside student_files
+student_files/**
+student_answers.txt
+
+# But DO NOT ignore the valerie subdirectory
+!student_files/valerie/
+!student_files/valerie/**
+
+# (Optional) If student_files itself should still appear as a folder
+!student_files/
